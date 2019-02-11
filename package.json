@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/rhoenkelevra/Web-Components/issues"
   },
-  "homepage": "https://github.com/rhoenkelevra/Web-Components",
+  "homepage": "https://github.com/rhoenkelevra/Web-Components/dist/calculator/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
