@@ -61,6 +61,10 @@ h1{
 .accordion input[type=checkbox]:checked + label + .accordion-item{
 	display: block;
 }
+.accordion input[type=checkbox]:checked + label{
+	background-color: rgb(205, 99, 99);
+	color: #fff;
+}
 
 .accordion li:active label{
 	background-color: red;
