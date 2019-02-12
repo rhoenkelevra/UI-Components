@@ -1,0 +1,66 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <title>accordion</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Accordion</h1>
+      <div class="accordion">
+        <ul>
+          <!-- Item 1 -->
+          <li class="has-children">
+						<input type="checkbox" name="sub-group-1" id="sub-group-1">
+						<label for="sub-group-1">Appetizers</label>
+            <div class="accordion-item">
+              <div class="accordion-body">
+                <h3 class="subtitle">Chech our tasty apps!</h3>
+                <h4 class="message">Happy hour menu - half off!!</h4>
+                <p class="menu">Chicken Wings (6) - 5.99$</p>
+                <p class="menu">Calamari - 7.99$</p>
+                <p class="menu">Garlic breaded pickles - 4.59$</p>
+              </div>
+            </div>
+          </li>
+          <!-- Item 2 -->
+          <li>
+						<input type="checkbox" name="sub-group-2" id="sub-group-2">
+						<label for="sub-group-2">Entrees</label>
+            <div class="accordion-item">
+              <div class="accordion-body">
+                <h3 class="subtitle">
+                  Choose from a wide range of pastas, combos and signature
+                  dishes
+                </h3>
+                <h4 class="message">Pasta</h4>
+                <p class="menu">Chicken Picatta - 14.99$</p>
+                <p class="menu">Chicken Pollo - 12.99$</p>
+                <p class="menu">Lasagna (Chicken/beef) - 10.99$</p>
+                <h4 class="message">Combos</h4>
+                <p class="menu">Italian Sausage & Beef Combo - 15.99$</p>
+                <p class="menu">Mac n Cheese with Chicken Tenders - 8.99$</p>
+              </div>
+            </div>
+          </li>
+          <!-- Item 3 -->
+          <li>
+						<input type="checkbox" name="sub-group-3" id="sub-group-3">
+						<label for="sub-group-3">Desserts</label>
+            <div class="accordion-item">
+              <div class="accordion-body">
+                <h3 class="subtitle">New Summer Specials!!</h3>
+                <h4 class="message">Shakes and Ice Creams</h4>
+                <p class="menu">Turtle Caramel Shake - 6.99$</p>
+                <p class="menu">Chocolate Brownie Bite - 4.99$</p>
+              </div>
+            </div>
+          </li>
+
+          <!-- Placeholder for Item 4 -->
+        </ul>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
