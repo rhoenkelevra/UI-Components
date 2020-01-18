@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: ;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid pink;
+}
+
+.modal-signup {
+  padding: 15px;
+  border: 15px;
+  width: 40%;
+  height: 500px;
+  border: 10px solid coral;
+}
+
+.modal-title{
+	display: flex;
+	justify-content: center;
+	color: coral;
+	height: 20%;
+/*	line-height: 2;*/
+}
+
+.modal-body{
+	display: flex;
+  align-items: flex-start;
+  justify-content: center;
+	height: 80%;
+	
+}
+
+
+.modal-signup input {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+	border-radius: 10px;
+	border: 2px solid red;
+	padding-left: 4px;
+	font-size: 14px;
+}
+
+.modal-signup input::placeholder{
+	color: red;
+	padding: 10px
+}
+
+#submit-btn{
+	color: #fff;
+	background-color: red;
+	text-align: center;
+	width: 90px; 
+	height: 30px;
+	margin-left: 10px;
+	border-radius: 10px;
+	
+}
